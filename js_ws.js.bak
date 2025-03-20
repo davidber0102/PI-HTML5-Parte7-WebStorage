@@ -17,7 +17,7 @@ function itemNuevo(){
 
 function leer_mostrar(clave){
     var zonadatos=document.getElementById("zonadatos");
-    zonadatos.innerHTML='<div><button onclick="elimnarTodos()">Eliminar Todo </button></div>';
+    zonadatos.innerHTML='<div><button onclick="elimnarTodo()">Eliminar Todo </button></div>';
     //var elvalor=sessionStorage.getItem(clave);
     //var elvalor=sessionStorage[clave];
     //zonadatos.innerHTML="";
